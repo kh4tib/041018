@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: url("https://emojipedia-us.s3.amazonaws.com/thumbs/120/google/119/banana_1f34c.png"), auto;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
     
     .rectangle {
         width: 10rem;
@@ -28,5 +28,16 @@ body {
         border: 1rem solid #fff;
         transition: 300ms ease-in-out;
         border-radius: 1rem;
+        color: #fff;
+        font-family: monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .image {
+            width: 50px;
+            height: 50px;
+            background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/meh.png) center center / cover no-repeat;
+        }
     }
 }
